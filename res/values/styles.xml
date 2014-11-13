@@ -1,0 +1,54 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+    <style name="Theme.MyTheme" parent="Theme.AppCompat.Light">
+        <item name="actionBarStyle">@style/Widget.MyTheme.ActionBar</item>
+        <item name="android:actionBarStyle">@style/Widget.MyTheme.ActionBar</item>
+        <item name="actionBarTabTextStyle">@style/MyTabTextStyle</item>
+        <item name="android:actionBarTabTextStyle">@style/MyTabTextStyle</item>
+        
+    </style> 
+    
+     <style name="Theme.MyThemeNO" parent="android:Theme.Holo.NoActionBar">
+        <item name="android:windowBackground">@color/color2</item>
+
+    </style>
+    
+     <style name="Widget.MyTheme.ActionBar" parent="@style/Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/color2</item>
+        <item name="background">@color/color2</item>
+        <item name="android:titleTextStyle">@style/YOURTHEME.ActionBar.TitleTextStyle</item>
+        <item name="titleTextStyle">@style/YOURTHEME.ActionBar.TitleTextStyle</item>
+        <!-- <item name="android:icon">@drawable/logo72</item> -->
+    </style>
+
+    <style name="Widget.MyTheme.ActionBar.TabBar" parent="@style/Widget.AppCompat.ActionBar.TabBar">
+        <item name="android:background">@color/color2</item>
+       <item name="background">@color/color2</item>
+    </style>
+
+    <style name="MyTabTextStyle" parent="@style/Widget.AppCompat.ActionBar.TabText">
+        <item name="android:textColor">#fff</item>
+    </style>
+
+    <style name="YOURTHEME.ActionBar.TitleTextStyle" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">#fff</item>
+    </style>
+
+</resources>

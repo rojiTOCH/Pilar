@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="item_bg_1">@drawable/list_selector_item1</color>
+    <color name="item_bg_2">@drawable/list_selector_item2</color>
+    
+    <color name="item_bg_3">@drawable/list_selector_item3</color>
+    <color name="item_bg_4">@drawable/list_selector_item4</color>
+    
+    <color name="item_bg_5">@drawable/list_selector_item5</color>
+    <color name="item_bg_6">@drawable/list_selector_item6</color>
+   
+     <color name="white">#ffffff</color>
+     <color name="color1">#87dbd3</color>
+     <color name="color2">#f38116</color>
+</resources>

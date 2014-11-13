@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Pilar</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    
+    <string-array name="drawer">
+        <item>Home</item>
+        <item>Directorio de empresarias</item>
+        <item>Eventos / Noticias</item>
+        <item>Alianzas</item>
+        <item>Cerrar Sesión</item>
+    </string-array>
+    
+    <string-array name="drawer1">
+        <item>ROA</item>
+        <item>LA CENICIENTA</item>
+        <item>ACOMUJERZA</item>
+        <item>EL BEJUCO</item>
+        <item>CREATIVE PIECES</item>
+        <item>NICO BURGERS</item>
+    </string-array>
+    
+    <string-array name="drawerTit">
+        <item>FERIA DE ARTESANÍAS</item>
+        <item>CONCURSO DE PUEBLOS VIVOS 2015</item>
+        <item>FESTIVAL DEL MAÍZ</item>
+        <item>FESTIVAL GASTRONÓMICO</item>
+    </string-array>
+    
+    <string-array name="drawerFech">
+        <item>10/01/15</item>
+        <item>22/03/15</item>
+        <item>14/08/15</item>
+        <item>10/01/15</item>
+    </string-array>
+    
+    <string-array name="drawerDesc">
+        <item>A desarrollarse en la casa Comunal, las integrantes de ACOMUJERZA presentarán</item>
+        <item>Selección de artesanos representantes de la localidad para Pueblos Vivos 2015</item>
+        <item>Zaragoza da inicio al 5to. Festival del Maíz y la apertura de las Fiestas Patronales del municipio.</item>
+        <item>En conmemoración a las Fiestas Patronales del municipio, se llevará a cabo un festival gastronómico</item>
+    </string-array>
+    
+    <string-array name="TITULOS">
+          <item >ALCALDÍA MUNICIPAL DE ZARAGOZA</item>
+          <item >CIUDAD MUJER</item>
+          <item >VOCES VITALES</item>
+          <item >BANDESAL</item>
+      </string-array>
+      <string-array name="DESCRIPCION">
+          <item >Apoyo a la generación de nuevos negocios, emprendimiento de la mujer y su autonomía económica.</item>
+          <item >Asistencia a la mujer en temas de violencia familar, autonomía económica y emprendimiento</item>
+          <item >Red de negocios liderados por mujeres, talleres de innovación y emprendimiento.</item>
+          <item >Banca de Desarrollo, con una línea diseñada de financiamiento especialmente para la mujer</item>
+      </string-array>
+    
+    <string name="drawer_open">Seleccione una opción</string>
+    <string name="drawer_close">**Seleccione una opción</string>
+
+</resources>
